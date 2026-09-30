@@ -1,0 +1,1 @@
+{"name":"wide-qrs-tachycardia","version":"1.0.0","private":true,"scripts":{"build":"node build.js","test":"node tests.js","start":"python3 -m http.server 3000"}}

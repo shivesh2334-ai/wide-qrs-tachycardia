@@ -1,0 +1,1 @@
+const fs=require('node:fs');fs.rmSync('dist',{recursive:true,force:true});fs.mkdirSync('dist');for(const f of ['index.html','style.css','app.js','engine.js'])fs.copyFileSync(f,'dist/'+f);fs.cpSync('assets','dist/assets',{recursive:true});console.log('Static app built in dist');
